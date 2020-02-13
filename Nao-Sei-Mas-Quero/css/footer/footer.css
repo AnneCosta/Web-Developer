@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
+
+.rodape{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-footer{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.col-footer{
+    margin:auto;
+}
+
+.titleRodape{
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.bodyRodape{
+    font-family: 'Andika', sans-serif;
+}
+
+@keyframes pound {
+    50% { transform: scale(1.1); }
+}
+
+.heart {
+    display: inline-block;
+    color: #e00;
+    animation: pound .5s infinite;
+    transform-origin: center;
+}

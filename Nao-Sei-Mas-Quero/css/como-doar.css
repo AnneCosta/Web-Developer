@@ -1,0 +1,77 @@
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.collapsible::after{
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: transparent;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Andika', cursive;
+}
+
+.titleSecao{
+    text-shadow: 2px 2px 3px #000;
+    color:white;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.collapses{
+    width: 70%;
+    margin: auto;
+}
+
+.motivacao{
+    padding: 15px;
+    text-indent: 25px;
+    line-height: 22px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 750px){
+    .titleSecao{
+        width: 100%;
+        border-radius: 0;
+    }
+    .collapses{
+        width: 100%;
+    }
+    .collapsible, .collapsible:hover{
+        margin-left: 0!important;
+        border-radius: 0;
+    }
+    .col-footer{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}

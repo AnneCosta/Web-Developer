@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não sei, mas quero: Doação</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/header/header.css"/>
+    <link rel="stylesheet" href="css/footer/footer.css"/>
+    <link rel="stylesheet" href="css/como-doar.css"/>
+    <link rel="shortcut icon" href="img/logo-02-fav2.png"/>
+    <script src="https://kit.fontawesome.com/0f1f92aeb9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header container-header">
+    <div class="icontitle col">
+        <img src="img/logo-02.png" class="iconHeader"/>
+    </div>
+    <nav class="header-links col">
+        <a href="index.html" class="menuBtn">Início</a>
+        <a href="tela_projetos.html" class="menuBtn">Projetos</a>
+        <a href="galeria.html" class="menuBtn">Galeria</a>
+        <a href="tela_sobre.html" class="menuBtn">Sobre</a>
+        <a href="como-doar.html" class="doar-menuBtn">Como doar</a>
+    </nav>
+</header>
+<main class="container">
+    <section class="col space titleSecao" style="background-color: #7294d3; margin-top:18px;">
+        <h1 class="title" style="font-size: 25px; text-align: center">Por que doar?</h1>
+    </section>
+
+    <div class="motivacao">
+        <p>
+            A doação de recursos financeiros é de grande importância para organizações
+            sem fins lucrativos. O apoio da sociedade civil para ajudar as crianças carentes
+            da cidade de Utinga pode ser realizado por meio de doações destinadas à projetos,
+            campanhas, entre outros. Quando você doa, contribui diretamente com a transformação
+            para melhor de pessoas, de famílias, de comunidades e do próprio planeta, além de ajudar nossas
+            crianças a terem um futuro com mais cultura e conhecimento.
+        </p>
+    </div>
+
+    <section class="col space titleSecao" style="background-color: #7294d3; margin-top:18px;">
+        <h1 class="title" style="font-size: 25px; text-align: center">Como fazer doações?</h1>
+    </section>
+    <section class="collapses">
+        <button type="button" class="collapsible bodyRodape">1. Banco 1</button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible bodyRodape">2. Banco 2</button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible bodyRodape">3. Banco 3</button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+</main>
+<footer class="rodape">
+    <div class="container-footer">
+        <div class="col-footer" >
+            <span class="titleRodape">Feito de ❤<br>Todos os direitos reservados.</span>
+        </div>
+        <div class="col-footer" style="">
+            <span class="titleRodape">Contato</span>
+            <p class="bodyRodape">
+                (XX) X XXXX-XXXX<br>
+                fulanodetal@nsmq.com
+            </p>
+        </div>
+        <div class="col-footer">
+            <span class="titleRodape">Patrocinadores</span>
+            <br>
+            <table style="margin:auto; padding-top: 15px;">
+                <tbody>
+                <tr>
+                    <td style="padding: 15px;"><img src="img/flame-logo-png-30.png" width="30px"></td>
+                    <td style="padding: 15px;"><img src="img/flame-logo-png-30.png" width="30px"></td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</footer>
+
+<button onclick="topFunction()" id="toTop" title="Vá pro início"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+    const coll = document.getElementsByClassName("collapsible");
+
+    for (let i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+
+    mybutton = document.getElementById("toTop");
+
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+
+</script>
+</body>
+</html>

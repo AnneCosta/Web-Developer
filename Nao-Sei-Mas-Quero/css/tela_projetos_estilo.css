@@ -1,0 +1,166 @@
+h1{
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(247, 247, 247, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+}
+.card:hover {
+
+}
+
+.middle3 .container{
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    color: white;
+}
+h2{
+    color: white;
+    padding: 8px;
+}
+
+.titulo{
+    font-family: 'Andika', cursive;
+    text-shadow: 2px 2px 3px #a7a7a7;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+.infantil{
+    background-image: url("../img/criancas.png");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.infantil:hover{
+    background-image: url("../img/criancas-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.infantil:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.idoso{
+    background-image: url("../img/idosos.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.idoso:hover{
+    background-image: url("../img/idosos-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.idoso:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.adulto{
+    background-image: url("../img/adultos.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.adulto:hover{
+    background-image: url("../img/adultos-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.adulto:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.feminino{
+    background-image: url("../img/mulheres.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.feminino:hover{
+    background-image: url("../img/mulheres-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.feminino:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.juvenil{
+    background-image: url("../img/jovem.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.juvenil:hover{
+    background-image: url("../img/jovem-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.juvenil:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.misto{
+    background-image: url("../img/misto.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.misto:hover{
+    background-image: url("../img/misto-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.misto:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.masculino{
+    background-image: url("../img/homem.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.masculino:hover{
+    background-image: url("../img/homem-overlay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.masculino:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}

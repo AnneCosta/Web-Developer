@@ -1,0 +1,104 @@
+@import url("como-doar.css");
+
+h1{
+	text-align: center;
+}
+.projetos{
+      width: 80%;
+      margin: auto;
+      text-align: justify;
+}
+
+h3{
+      text-align: center;
+
+}
+
+a{
+      text-decoration: none;
+      color: #2a55ff;
+}
+h2{
+      color: white;
+      padding: 8px;
+}
+
+.content {
+    margin-top: 0;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Andika', cursive;
+}
+
+@media screen and (max-width: 750px){
+    .collapses{
+        width: 100%;
+    }
+    .collapsible, .collapsible:hover{
+        margin-left: 0!important;
+        border-radius: 0;
+    }
+    .projetos{
+        width: 100%;
+    }
+}
+
+.title a{
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 7px;
+}
+
+.title a:hover{
+    color-adjust: economy;
+    color: #bec7ff;
+    text-shadow: 2px 2px 3px #656565;
+    transition: .3s ease-in-out;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    background-color: #bec7ff;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-family: 'Andika', cursive;
+    font-size: 13px;
+    text-shadow: none;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-right {
+    top: -5px;
+    left: 200%;
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #bec7ff transparent transparent;
+}

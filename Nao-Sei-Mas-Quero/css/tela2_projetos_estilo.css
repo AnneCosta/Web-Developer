@@ -1,0 +1,221 @@
+h1{
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(247, 247, 247, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    color: white;
+    padding: 8px;
+}
+
+h4{
+    color:white;
+}
+
+.titulo{
+    font-family: 'Andika', cursive;
+    text-shadow: 2px 2px 3px #a7a7a7;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+.leitura{
+    background-image: url("../img/leitura.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.leitura:hover{
+    background-image: url("../img/leitura-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.leitura:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.danca{
+    background-image: url("../img/danca.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.danca:hover{
+    background-image: url("../img/danca-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.danca:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.alimentacao{
+    background-image: url("../img/alimentacao.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.alimentacao:hover{
+    background-image: url("../img/alimentacao-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.alimentacao:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.esportes{
+    background-image: url("../img/esportes.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.esportes:hover{
+    background-image: url("../img/esportes-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.esportes:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.arte{
+    background-image: url("../img/arte.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.arte:hover{
+    background-image: url("../img/arte-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.arte:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.computacao{
+    background-image: url("../img/computacao.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.computacao:hover{
+    background-image: url("../img/computacao-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.computacao:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.ciencias{
+    background-image: url("../img/ciencia.png");
+    background-size: cover;
+    background-position: center;
+    transition: 3s ease-in;
+}
+
+.ciencias:hover{
+    background-image: url("../img/ciencia-overlay.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ciencias:hover .titulo{
+    visibility: visible;
+    padding-top: 40%;
+}
+
+.title a{
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 7px;
+}
+
+.title a:hover{
+    color-adjust: economy;
+    color: #bec7ff;
+    text-shadow: 2px 2px 3px #656565;
+    transition: .3s ease-in-out;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    background-color: #bec7ff;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-family: 'Andika', cursive;
+    font-size: 13px;
+    text-shadow: none;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-right {
+    top: -5px;
+    left: 200%;
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #bec7ff transparent transparent;
+}

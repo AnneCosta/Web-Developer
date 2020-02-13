@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    color:black;
+}
+.title{
+    font-family: 'Marck Script', cursive;
+    font-size: 30px!important;
+    font-weight: normal!important;
+    text-shadow: 2px 2px 3px #000;
+    color: white;
+}
+
+.middle-img{
+    width: 80%;
+    background-image: url("../img/overlay.png"), url("../img/reuniao.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin:auto;
+    border-radius: 10px;
+
+}
+.resumo{
+    margin:auto;
+    width: 50%;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+}
+
+h2{
+    text-decoration: underline green;
+    text-align: center;
+    color: black;
+}
+.text p{
+    text-align: justify;
+    font-family: arial;
+}
+.introducao {
+    position: relative;
+    width: 650px;
+    margin: auto;
+    right: 270px;
+}
+
+.text{
+    padding: 20px;
+    width: 70%;
+    margin:auto;
+}
+
+
