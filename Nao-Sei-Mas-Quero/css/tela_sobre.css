@@ -71,7 +71,16 @@ a {
     color: black;
 }
 
+.linkRedesSocias{
+    padding-left: 10px;
+    color: #3076fb;
+    transition: .3s ease-in;
+}
 
+.linkRedesSociais:hover{
+    color: #7294d3;
+
+}
 
 @media screen and (max-width: 750px){
     .titleSecao{
