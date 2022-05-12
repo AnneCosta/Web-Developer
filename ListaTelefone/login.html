@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista Telefônica</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo-login.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body class="fundo">
+
+	<!-- menu -->
+	<nav class="container-fluid bar-nav">
+		<div class="row row-bar">
+			<i class="fas fa-user-plus"></i>
+			<spam class="btn-msg">Novo aqui?</spam><button class="cadastro_btn btn btn-sm shadow-none" type="button" data-toggle="modal" data-target="#ExemploModalCentralizado">Registre-se</button>
+		</div>
+	</nav>
+	<div style="margin-top: 10%;" class="container text-center col-lg-3">
+		<h3>Login</h3>
+		<form>
+			<div class="form-group">
+				<div class="col">
+					<input class="login form-control shadow-none" type="email" placeholder="E-mail" required/>
+				</div>
+				<div class="col">
+					<input class="login form-control shadow-none" type="password" placeholder="Senha" maxlength="8" required/>
+				</div>
+			</div>
+			<input class="btn botao" type="submit"/>
+		</form>
+	</div>
+	<!-- /// -->
+
+	<!-- Modal Registro -->
+
+	<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="TituloModalCentralizado">Registre-se</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+				<div class="corpo-modal">
+					<div>
+						<button class="image" type="button"> Alterar foto</button>
+						<img src="https://fch.lisboa.ucp.pt/sites/default/files/assets/images/avatar-fch_8.png" class="img-perfil"></img>
+					</div>
+					<br><br><br>
+					<form name="login" method="GET" action="login.html">
+						<div class="form-row">
+							<div class="col">
+								<input class="identificacao" type="text" name="nome" placeholder="Nome" required/>
+							</div>
+							<div class="col">
+								<input class="identificacao" type="text" name="sobrenome" placeholder="Sobrenome"/>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col">
+								<input class="protecao" type="email" name="email" placeholder="E-mail" required/>
+							</div>
+							<div class="col">
+								<input class="protecao" type="password"  id="senha" name="senha" placeholder="Senha" maxlenght="8" required/>
+								<label for="senha" class="label-senha">Até 8 caracteres</label>
+							</div>
+							<div class="col">
+								<input class="protecao" type="password" id="senha-confirma" name="confirm" placeholder="Confirme a senha" maxlength="8" required/>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="modal-footer">					
+					<button type="submit" class="btn btn-primary">Salvar mudanças</button>
+				</form>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- /// -->
+
+	<script>
+		var senha = document.getElementById("senha")
+  		, confirmacao = document.getElementById("senha-confirma");
+
+		function validatePassword(){
+  			if(senha.value != confirmacao.value) {
+    			confirmacao.setCustomValidity("Senhas diferentes!");
+  			} else {
+    			confirmacao.setCustomValidity('');
+  			}
+		}
+
+		senha.onchange = validatePassword;
+		confirmacao.onkeyup = validatePassword;
+	</script>
+
+	<!-- scripts JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

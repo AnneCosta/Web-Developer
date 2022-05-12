@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista Telefônica</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body class="fundo">
+
+	<!-- menus (login, cadastro, etc) -->
+	<nav class="container-fluid bar-nav">
+		<div class="row row-bar">
+
+			<!-- barra de pesquisa -->
+			<div class="input-group mb-3">
+				<input type="text" class="barra-pesquisa" placeholder=" Pesquisar"  aria-describedby="button-addon2">
+				<div class="input-group-append">
+					<button class="btn shadow-none btncor" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+				</div>
+			</div>
+			<!-- /// -->
+
+			<!-- Logout / Perfil -->
+			<img class="img-perfil" src="https://3.bp.blogspot.com/-SLT8LKGt-A4/WdaheTWggcI/AAAAAAAAGrM/ZpHJK6VeiPYtCgYw-j6mPwb_f84TqKW7wCLcBGAs/s1600/69aad9fe6a807d356fa19fd4c40a7017.jpg" />
+
+			<button class="btn btn-sm dropdown-toggle shadow-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Logout</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<span class="dropdown-item-text">Anne Costa</span>
+				 <div class="dropdown-divider"></div>
+    			<a class="dropdown-item" href="#">Sair</a>
+			</div>
+			<!-- /// -->  
+
+		</div>
+	</nav>
+	<!-- /// -->
+
+	<!-- header (titulo + apresentação do sistema) -->
+	<header class="container-fluid header-bar text-center">
+		<h3 class="titulo">Lista Telefônica</h3>
+	</header>
+	<!-- /// -->
+	
+	<!-- tabela de dados + fotos -->
+	<div class="container-fluid">
+
+		<!-- Row do 1° contato -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<img class="img-contato" src="https://i.pinimg.com/originals/a5/f5/12/a5f512e1f51bc34544001e536aeeb6ef.jpg" />
+				<h4 class="nome-contato">Jayden Dutton</h4>
+				<ul class="dados-iniciais">
+					<li class="dados-tabela"><i class="far fa-address-card"></i>&nbsp; Jay • Dut • Ayden</li>
+					<li class="dados-tabela"><i class="fas fa-birthday-cake"></i>&nbsp; 12/05/1983</li>
+				</ul>
+				<ul class="dados-ld-esquerdo">
+					<li class="dados-tabela"><i class="fas fa-phone"></i>&nbsp; (00) XXXX - XXXX</li>
+					<li class="dados-tabela"><i class="fas fa-map-marker-alt"></i>&nbsp; 4076 Playfair Avenue</li>
+					<li class="dados-tabela">&nbsp;&nbsp; Toronto, ON M4J 3S3</li>
+				</ul>
+				<ul class="dados-ld-direito">
+					<li class="dados-tabela">
+						<a class="link-rs" href="#"><i class="fab fa-twitter"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-facebook-square"></i></a> 
+						&nbsp;  
+						<a class="link-rs" href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="dados-tabela"><i class="fas fa-heart"></i>&nbsp; Irmão</li>
+				</ul>
+				<div class="menu-drop dropdown">
+					<a class="link-rs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Github</a>
+						<a class="dropdown-item" href="#">Codepen</a>
+						<a class="dropdown-item" href="#">Tumblr</a>
+					</div>
+				</div>
+				<ul class="icon-altera-deleta">
+					<li class="dados-altera">
+						<a href="#"><i class="fas fa-edit"></i></a>
+						&nbsp;
+						<a href="#"><i class="fas fa-trash"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /// -->
+
+		<!-- Row do 2° contato -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<img class="img-contato" src="http://static.tumblr.com/a5c6346ab35c48cb89803d638abd2431/w3rdc1x/Qgznx79no/tumblr_static_7bk7vk9olzc44kkwo4cgws4cw.jpg" />
+				<h4 class="nome-contato">Abby Dunstan</h4>
+				<ul class="dados-iniciais">
+					<li class="dados-tabela"><i class="far fa-address-card"></i>&nbsp; Abb • Duns</li>
+					<li class="dados-tabela"><i class="fas fa-birthday-cake"></i>&nbsp; 03/07/1995</li>
+				</ul>
+				<ul class="dados-ld-esquerdo">
+					<li class="dados-tabela"><i class="fas fa-phone"></i>&nbsp; (00) XXXX - XXXX</li>
+					<li class="dados-tabela"><i class="fas fa-map-marker-alt"></i>&nbsp; 254 184th Street</li>
+					<li class="dados-tabela">&nbsp;&nbsp; Edmonton, AB T5J 2R4</li>
+				</ul>
+				<ul class="dados-ld-direito">
+					<li class="dados-tabela">
+						<a class="link-rs" href="#"><i class="fab fa-twitter"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-facebook-square"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="dados-tabela"><i class="fas fa-heart"></i>&nbsp; Mãe</li>
+				</ul>
+				<div class="menu-drop dropdown">
+					<a class="link-rs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Github</a>
+						<a class="dropdown-item" href="#">Codepen</a>
+						<a class="dropdown-item" href="#">Tumblr</a>
+					</div>
+				</div>
+				<ul class="icon-altera-deleta">
+					<li class="dados-altera">
+						<a href="#"><i class="fas fa-edit"></i></a>
+						&nbsp;
+						<a href="#"><i class="fas fa-trash"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /// -->
+
+		<!-- Row do 3° contato -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<img class="img-contato" src="https://i.pinimg.com/originals/03/1d/b7/031db7767b40dd0bcbb7744666ceb1a0.jpg" />
+				<h4 class="nome-contato">Alexandra Kellow</h4>
+				<ul class="dados-iniciais">
+					<li class="dados-tabela"><i class="far fa-address-card"></i>&nbsp; Alex • Kel • Low</li>
+					<li class="dados-tabela"><i class="fas fa-birthday-cake"></i>&nbsp; 25/01/1999</li>
+				</ul>
+				<ul class="dados-ld-esquerdo">
+					<li class="dados-tabela"><i class="fas fa-phone"></i>&nbsp; (00) XXXX - XXXX</li>
+					<li class="dados-tabela"><i class="fas fa-map-marker-alt"></i>&nbsp; 3728 Brant Ave</li>
+					<li class="dados-tabela">&nbsp;&nbsp; Bear Canyon, AB T1T 1T1</li>
+				</ul>
+				<ul class="dados-ld-direito">
+					<li class="dados-tabela">
+						<a class="link-rs" href="#"><i class="fab fa-twitter"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-facebook-square"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="dados-tabela"><i class="fas fa-heart"></i>&nbsp; Irmã</li>
+				</ul>
+				<div class="menu-drop dropdown">
+					<a class="link-rs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Github</a>
+						<a class="dropdown-item" href="#">Codepen</a>
+						<a class="dropdown-item" href="#">Tumblr</a>
+					</div>
+				</div>
+				<ul class="icon-altera-deleta">
+					<li class="dados-altera">
+						<a href="#"><i class="fas fa-edit"></i></a>
+						&nbsp;
+						<a href="#"><i class="fas fa-trash"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /// -->
+
+		<!-- Row do 4° contato -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<img class="img-contato" src="https://i.pinimg.com/originals/19/c4/c4/19c4c44447c622c01e0653f167b5dcfb.jpg" />
+				<h4 class="nome-contato">Sophia Rabinovitch</h4>
+				<ul class="dados-iniciais">
+					<li class="dados-tabela"><i class="far fa-address-card"></i>&nbsp; Soph • Vitch</li>
+					<li class="dados-tabela"><i class="fas fa-birthday-cake"></i>&nbsp; 01/11/1970</li>
+				</ul>
+				<ul class="dados-ld-esquerdo">
+					<li class="dados-tabela"><i class="fas fa-phone"></i>&nbsp; (00) XXXX - XXXX</li>
+					<li class="dados-tabela"><i class="fas fa-map-marker-alt"></i>&nbsp; 2894 Boulevard Laflèche</li>
+					<li class="dados-tabela">&nbsp;&nbsp; St Georges, QC G5Y 1X7</li>
+				</ul>
+				<ul class="dados-ld-direito">
+					<li class="dados-tabela">
+						<a class="link-rs" href="#"><i class="fab fa-twitter"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-facebook-square"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#"><i class="fab fa-instagram"></i></a>
+						&nbsp;
+					</li>
+					<li class="dados-tabela"><i class="fas fa-heart"></i>&nbsp; Amigo(a)</li>
+				</ul>
+				<div class="menu-drop dropdown">
+					<a class="link-rs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Github</a>
+						<a class="dropdown-item" href="#">Codepen</a>
+						<a class="dropdown-item" href="#">Tumblr</a>
+					</div>
+				</div>
+				<ul class="icon-altera-deleta">
+					<li class="dados-altera">
+						<a href="#"><i class="fas fa-edit"></i></a>
+						&nbsp;
+						<a href="#"><i class="fas fa-trash"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /// -->
+
+		<!-- Row do 5° contato -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<img class="img-contato" src="https://s14.favim.com/orig/160712/aesthetic-grunge-indie-pale-Favim.com-4517554.jpeg" />
+				<h4 class="nome-contato">Randee M. Cameron</h4>
+				<ul class="dados-iniciais">
+					<li class="dados-tabela"><i class="far fa-address-card"></i>&nbsp; Cam • Dee • Ran</li>
+					<li class="dados-tabela"><i class="fas fa-birthday-cake"></i>&nbsp; 03/10/1995</li>
+				</ul>
+				<ul class="dados-ld-esquerdo">
+					<li class="dados-tabela"><i class="fas fa-phone"></i>&nbsp; (00) XXXX - XXXX</li>
+					<li class="dados-tabela"><i class="fas fa-map-marker-alt"></i>&nbsp; 1727 Blair Court</li>
+					<li class="dados-tabela">&nbsp;&nbsp; Ethel, MO 63539</li>
+				</ul>
+				<ul class="dados-ld-direito">
+					<li class="dados-tabela">
+						<a class="link-rs" href="#" role="button"><i class="fab fa-twitter"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#" role="button"><i class="fab fa-facebook-square"></i></a> 
+						&nbsp; 
+						<a class="link-rs" href="#" role="button"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="dados-tabela"><i class="fas fa-heart"></i>&nbsp; Amigo(a)</li>
+				</ul>
+				<div class="menu-drop dropdown">
+					<a class="link-rs" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Github</a>
+						<a class="dropdown-item" href="#">Codepen</a>
+						<a class="dropdown-item" href="#">Tumblr</a>
+					</div>
+				</div>
+				<ul class="icon-altera-deleta">
+					<li class="dados-altera">
+						<a href="#"><i class="fas fa-edit"></i></a>
+						&nbsp;
+						<a href="#"><i class="fas fa-trash"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /// -->
+
+		<!-- Row para o botão de adicionar outros contatos -->
+		<div class="row-conteudo">
+			<div class="col-sm">
+				<button type="button" class="btn btn-lg btn-adicionar shadow-none" data-toggle="modal" data-target="#ExemploModalCentralizado"><i class="fas fa-plus"></i></button>
+			</div>
+		</div>
+		<!-- /// -->
+
+	</div>
+	<!-- /// -->
+
+	<!-- Modal para adicionar contatos-->
+	<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="TituloModalCentralizado">Adicionar contato</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				<!-- Corpo do modal -->
+					<div class="container-fluid corpo-modal">
+						<div>
+							<button class="image" type="button"> Alterar foto</button>
+							<img src="https://fch.lisboa.ucp.pt/sites/default/files/assets/images/avatar-fch_8.png" class="img-addcontato"></img>
+						</div>
+						<form name="testes" method="GET" action="home.html">
+							<div class="form-row">
+								<div class="col">
+					  				<input class="input-inicial" type="text" name="nome" placeholder="Nome" required/>
+								</div>
+								<br>
+								<div class="col">
+									<input class="input-inicial" type="text" name="sobrenome" placeholder="Sobrenome"/>
+								</div>
+								<div class="col">
+									<input class="input-inicial" type="text" name="apelido" placeholder="Apelido"/>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col">
+									<input class="input-info" id="number" pattern="^\d{2} \d{5}-\d{4}$" type="tel" name="telefone" placeholder="Telefone" required/>
+									<label for="number"><i>XX XXXXX-XXXX</i></label>
+								</div>
+								<div class="col">
+									<input class="input-col3" type="text" name="cidade" placeholder="Cidade"/>
+								</div>
+								<div class="col">
+									<input class="input-col3" type="text" name="estado" placeholder="Estado" maxlength="2"/>
+								</div>
+								<div class="col">
+									<input class="input-cep" type="text" name="cep" placeholder="CEP" maxlength="9" />
+								</div>
+								<div class="col">
+									<input class="input-info" type="text" name="rua" placeholder="Rua"/>
+								</div>
+								<div class="col">
+									<input class="input-aniver-rl" type="date" name="aniversario" placeholder="Aniversário"/>
+								</div>
+								<div class="col">
+									<select class="form-control select-relacionamento shadow-none" name="relacionamento">
+										<option disabled selected>Relacionamento</option>
+										<option>Pai</option>
+										<option>Mãe</option>
+										<option>Irmão</option>
+										<option>Irmã</option>
+										<option>Amigo(a)</option>
+										<option>Cônjuge</option>
+										<option>Outro</option>
+									</select>								
+								</div>
+								<div class="col">
+									<input class="input-redesocial" type="text" id="nomerede" name="nome-redesocial" placeholder="Rede Social" disabled/>
+								</div>
+								<div class="col">
+									<select class="form-control select-redesocial shadow-none" name="rede social" onchange="verifica(this.value)">
+										<option value="null" disabled selected>--</option>"
+										<option value="twt">Twitter</option>
+										<option value="fb">Facebook</option>
+										<option value="insta">Instagram</option>
+										<option value="outro">Outro</option>
+									</select>								
+								</div>
+								<div class="col">
+									<input class="input-linkrede" type="text" name="link-redesocial" placeholder="Link do perfil"/>
+								</div>
+							</div>
+					</div>
+				<!-- ///  -->
+				</div>
+				<div class="modal-footer">
+						<input type="submit" class="btn btn-modal" value="Salvar mudanças"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /// -->
+
+	<script>
+		function verifica(value){
+			var nomerede = document.getElementById("nomerede");
+
+  			if(value == "outro"){
+   			 	nomerede.disabled = false;
+  			}else if(value == "twt"){
+    			nomerede.disabled = true;
+ 		 	}else if(value == "fb"){
+    			nomerede.disabled = true;
+ 		 	}else if(value == "insta"){
+    			nomerede.disabled = true;
+ 		 	}else if(value == "null"){
+    			nomerede.disabled = true;
+ 		 	}
+		};
+	</script>
+
+	<!-- scripts JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,455 @@
+.fundo{
+	background: #C9DBBD;
+}
+
+/* Menu + dropdown */
+.bar-nav{
+	background-color: #ABC3A7;
+	height: 30px;
+}
+
+.row-bar{
+	background-color: #ABC3A7;
+	width: 25em;
+	height: 1.9em;
+}
+
+.row{
+	float: right;
+}
+
+.img-perfil{
+	width: 25px;
+	height: 25px;
+	border-radius: 100px; 
+	margin-left: 30px;
+	margin-top: 2px;
+}
+
+.btn-sm{
+	width: 80px;
+	height: 30px;
+	margin-left: 5px;
+	background-color: #ABC3A7;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+
+.btn-sm:hover{
+	background-color: rgb(161, 184, 157);
+}
+/* ----------- */
+
+/* barra de pesquisa */
+.barra-pesquisa{
+	width: 180px;
+	height: 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid #fff;
+	line-height: 1.0;
+}
+
+.input-group.mb-3{
+	position: relative;
+	top: 4px;
+	left: 20px;
+	width: 250px;
+	height: 25px;
+}
+
+#button-addon2{
+	width: 35px;
+	height: 26px;
+	line-height: 1.5;
+	border: 1px solid rgba(98, 129, 101, 0.61);
+	color: rgb(201, 219, 189);
+	background-color: rgba(98, 129, 101, 0.61);
+}
+
+#button-addon2:hover{
+	background-color: rgb(201, 219, 189);
+	color: rgb(121, 160, 125);
+}
+
+.fa-search{
+	position: relative;
+	top: -5px;
+	left: -3px;
+}
+/* --------------------- */
+
+/* Título */
+.header-bar{
+	background-color: #ABC3A7;
+	background-image: linear-gradient(#ABC3A7, #CDB);
+	height: 100px;
+	text-align: center;
+	color: #000;
+}
+
+.titulo{
+	width: 450px;
+	position: relative;
+	top: 15px;
+	margin: auto;
+}
+/* ----------- */
+
+/* tabela de dados*/
+li{
+	list-style: none;
+}
+
+.dados-tabela{
+	width: 180px;
+	margin: 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.row-conteudo{
+	float: left;
+	height: 210px;
+	width: 400px;
+	border: 1px solid #fff;
+	line-height: 1.5; 
+	border-radius: 8px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+/* Botão p adicionar contatos */
+.btn-adicionar{
+	position: relative;
+	top: -1px;
+	left: -16px;
+	width: 400px;
+	height: 210px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	line-height: 1.5;
+	color: rgb(121, 160, 125);
+}
+
+.btn-adicionar:hover{
+	background-color: rgba(98, 129, 101, 0.61);
+	color:rgb(201, 219, 189);
+	border: 1px solid transparent;
+	line-height: 1.5;
+	border-radius: 8px;
+}
+
+.fa-plus{
+	font-size: 65px;
+}
+/* ----- */
+
+.img-contato{
+	width:80px;
+	height: 80px;
+	border-radius: 100%;
+	position: relative;
+	top: 15px;
+}
+
+.nome-contato{
+	position: relative;
+	top: -65px;
+	left: 110px;
+	width: 250px;
+	margin: 0px;
+}
+
+.dados-iniciais{
+	font-size: 16px;
+	position: relative;
+	top:-65px;
+	left: 70px;
+	margin: 0px;
+}
+
+.dados-ld-esquerdo{
+	padding: 0px;
+	width: 220px;
+	height: 50px;
+	float: left;
+	position: relative;
+	top: -50px;
+	left: 5px;
+	font-size: 14px;
+	
+}
+
+.dados-ld-direito{
+	padding: 0px;
+	width: 180px;
+	float: right;
+	position: relative;
+	top: -110px;
+	left: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+}
+
+.fa-address-card, .fa-phone, 
+.fa-map-marker-alt, .fa-heart{
+	color: rgba(87, 114, 89, 0.767);
+}
+
+.fa-birthday-cake{
+	color: rgba(87, 114, 89, 0.767);
+	margin-left: 3px;
+}
+
+.fa-facebook-square, .fa-instagram, 
+.fa-twitter, .fa-ellipsis-h{
+	color: rgba(87, 114, 89, 0.767);
+	font-size: 20px;
+	transition: 0.5s linear;
+}
+
+.menu-drop{
+	width: 50px;
+	position: relative;
+	bottom: 109px;
+	left: 315px;
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover, 
+.fa-twitter:hover, .fa-ellipsis-h:hover{
+	color: #000;
+	transition: 0.5s linear;
+}
+/* ------------------------- */
+
+/* Botões do rodapé do Modal */
+
+.btn-modal{
+	color: rgb(121, 160, 125);
+}
+
+.btn-modal:hover{
+	background-color: rgba(98, 129, 101, 0.61);
+	color:rgb(201, 219, 189);
+}
+
+/* --------------------------  */
+
+/* Informações do modal */
+.input-inicial{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:250px;
+	font-size: 16px;
+	padding: 0;
+    outline: none;
+	height: 30px;
+	position: relative;
+	left: 140px;
+	top: -100px;
+}
+
+.input-info{
+	position: relative;
+	bottom: 55px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:430px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+label{
+	width: 250px;
+	height: 20px;
+	position: relative;
+	bottom: 60px;
+	left: 0px;
+	font-size: 11px;
+	color: #9e9e9e;
+}
+
+.input-inicial:focus, .input-info:focus, .input-col3:focus,
+.input-cep:focus, .input-redesocial:focus, .input-linkrede:focus{
+	border-bottom: 1px solid #26a69a;
+}
+
+.info-inicial{
+	width: 200px;
+	height: 20px;
+	float: left;
+	position: relative;
+	left: 130px;
+	bottom: 100px;
+}
+
+.input-col3{
+	position: relative;
+	bottom: 55px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:165px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+.input-cep{
+	position: relative;
+	bottom: 55px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:80px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+.input-aniver-rl{
+	position: relative;
+	bottom: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:200px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+.select-relacionamento{
+	height: -50px;
+	position: relative;
+	bottom: 46px;
+}
+
+.input-redesocial{
+	position: relative;
+	bottom: 30px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:200px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+.select-redesocial{
+	height: -50px;
+	position: relative;
+	bottom: 30px;
+}
+
+.input-linkrede{
+	position: relative;
+	bottom: 25px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #9e9e9e;
+	line-height: 1.15;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+	width:430px;
+	font-size: 16px;
+	padding: 0;
+	outline: none;
+	height: 30px;
+}
+
+.corpo-modal{
+	height: 400px;
+}
+
+form{
+	height: 50px;
+}
+
+.image{
+	width: 100px;
+	height: 100px;
+	border-radius: 500px;
+	position: absolute;
+	top: 16px;
+	z-index: 99999;
+	border:none;
+	background-color: transparent;
+	transition-duration: 0.5s;
+	color: transparent;
+}
+
+.image:hover{
+	background-color: #000;
+	opacity: 0.5;
+	transition-duration: 0.5s;
+	color: #fff;
+}
+
+.img-addcontato{
+	position: relative;
+	top: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+/* ----------------------- */
+
+/* icones (deletar/ alterar) */
+.icon-altera-deleta{
+	position: relative;
+	bottom: 64px;
+	left: 220px;
+	float: right;
+	font-size: 14px;
+}
+
+.fa-edit, .fa-trash{
+	color: rgba(87, 114, 89, 0.767);
+}
+
+.fa-edit:hover, .fa-trash:hover{
+	color: #000;
+}
+
+.dados-altera{
+	width: 80px;
+}
+
+/* ------------------------- */
+
+/* Botão de registro p tela de login
+
+.fa-user-plus{
+	padding: 6px;
+	position: relative;
+	left: 6px;
+}
+
+
+
+/*
